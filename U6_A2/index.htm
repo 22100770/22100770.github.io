@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<center>
+<img src="images/banner.png" alt="Celtec Games Banner Image">
+</center>
+
+<br>
+
+<!-- The navigation div will contain the website navigation bar, this will be consistent across pages -->
+<div id="navigation">
+
+<center>
+<a href="index.htm">Homepage</a> -
+<a href="aboutus.htm">About Us</a> -
+<a href="blog.htm">Blog</a> -
+<a href="Products.htm">Products Page</a> -
+<a href="contactus.htm">Contact Us</a>
+
+<!-- This closes the 'navigation' div tag-->
+</div>
+
+<title style="text-align:center;">Celtec games</title>
+
+</head>
+
+<body style="background-color:#8B0000;">
+
+<br>
+
+<!-- The maincontent div will contain the content for each page, this content will change across pages -->
+<div id="maincontent">
+
+<br>
+
+<script>
+var Digital=new Date()
+var hours=Digital.getHours()
+if (hours>=0&&hours<=12)
+document.write('<b>Good Morning, welcome to the website.</b>')
+else if (hours>12&&hours<=17)
+document.write('<b>Good Afternoon, welcome to the website.</b>')
+else document.write('<b>Good Evening, welcome to the website.</b>')
+</script>
+
+<b>
+<p style="color:white;">Hello and welcome to this website that I have developed about Celtec games and 
+throughout this website you will learn about the company Celtec Games and some of the things that you will learn 
+about will be some of the products that company sells, you will learn about what the company is and you will also 
+learn about the blog and if you were to have any questions for the company then you could get in touch with through 
+the contact us page.</p>
+</b>
+
+<img src="images/logo.png" alt="image of the logo for celtec games" style="float:right;width:590px;height:575px;">
+
+
+<!-- This closes the 'maincontent' div tag -->
+</div>
+
+
+</body>
+
+</html> 
